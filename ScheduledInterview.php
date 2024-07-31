@@ -56,7 +56,7 @@ class ScheduledInterviewsForm extends BaseReport
                 [
                     'interview_date'    => 'i.date',
                     'interview_time'    => 'i.time',
-                    'mac_partner_id' => 'v.mac_partner_id',
+                    'mac_partner_id'    => 'v.mac_partner_id',
                     'status_name'       => 'ist.name',
                     'status_color'      => 'ist.color',
                     'candidate_id'      => 'o.user_id',
