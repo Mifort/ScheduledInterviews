@@ -27,8 +27,6 @@ class ScheduledInterviewsForm extends BaseReport
 
     public function getReportResponse(ModelResponseJob $job)
     {
-        $currentPartner = Yii::$app->partner->getId();
-
         $headers = [
             self::IDX_PARTNER          => 'Клиент',
             self::IDX_STATUS           => 'Статус',
