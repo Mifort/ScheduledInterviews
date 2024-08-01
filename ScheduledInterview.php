@@ -74,6 +74,7 @@ class ScheduledInterviewsForm extends BaseReport
                 ]
             );
         $this->applyDateFilter($interviewsQuery, 'i.date');
+        //PartnerVirtualHr находиться в другой бд
         $partnerVrQuery = PartnerVirtualHr::find()
             ->alias('pv')
             ->select(
